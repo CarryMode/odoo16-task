@@ -3,7 +3,7 @@
 **Time spent:** approximately 10 hours.
 
 **Use of AI tools:**
-AI assistance was used selectively during the development process. Specifically, it was used to help with the creation of XML views, to support the implementation of automated tests due to limited prior experience with testing, and to assist with translating the task requirements.
+AI assistance was used selectively during the development process. Specifically, it was used during installation of odoo16, to help with the creation of XML views, to support the implementation of automated tests due to limited prior experience with testing, and to assist with translating the task requirements.
 
 
 
