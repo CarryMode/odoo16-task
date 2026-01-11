@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="company_view_tree" model="ir.ui.view">
+        <field name="name">company.view.tree</field>
+        <field name="model">developers.management.company</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="address"/>
+                <field name="developers_ids" widget="many2many_tags"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="company_view_form" model="ir.ui.view">
+        <field name="name">company.view.form</field>
+        <field name="model">developers.management.company</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="address"/>
+                    </group>
+                    <notebook>
+                        <page string="Developers">
+                            <field name="developers_ids" readonly="1"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>

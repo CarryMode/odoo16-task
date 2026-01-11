@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+.env/
+odoo16-venv/
+
+*.log
+*.pid
+*.db
+filestore/
+
+.vscode/
+.idea/
+.DS_Store
